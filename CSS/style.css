@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 40px;
+}
+
+.menu a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 40px;
+    font-size: 22px;
+    transition: 0.7s;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+} 
+
+.social-midia {
+    position: absolute;
+    right: 512px;
+    top: 180px;
+}
+
+.social-midia img {
+    display: block;
+    width: 33px;
+    margin: 22px 0;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 480px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 125px;
+    height: 45px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.texto-sobre button:hover {
+    border: 0;
+    background-color: #019e5d;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    transition: 0.7s;
+}
